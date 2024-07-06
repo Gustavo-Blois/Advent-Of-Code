@@ -14,12 +14,12 @@ func main() {
 			andar--
 		}
 		if andar == -1 {
-			print(i + 1)
-			print("\n")
+			fmt.Print(i + 1)
+			fmt.Print("\n")
 			break
 		}
 	}
-	print(andar)
-	print("\n")
+	fmt.Print(andar)
+	fmt.Print("\n")
 
 }
